@@ -11,10 +11,15 @@ theme:
     - toc.integrate
 nav:
   - Home: index.md
-  - Tabular data:
-      - Read from file: examples/read_with_pandas.ipynb
-      - Write to file: examples/script.py
-
+  - Basics:
+      - 101: examples/basics_101.ipynb
+      - 202: examples/read_with_pandas.ipynb
+  - Work with Files:
+      - Read non-spatial data: examples/read_with_pandas.ipynb
+      - Read spatial data: examples/geopandas.ipynb
+  - Work with Databases:
+      - .env file: examples/environment_variables.ipynb
+      
 plugins:
   - mkdocs-jupyter:
       ignore_h1_titles: True
