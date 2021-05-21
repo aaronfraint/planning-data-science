@@ -12,14 +12,16 @@ theme:
 nav:
   - Home: index.md
   - Basics:
-      - 101: examples/basics_101.ipynb
-      - 202: examples/read_with_pandas.ipynb
-  - Work with Files:
-      - Read non-spatial data: examples/read_with_pandas.ipynb
-      - Read spatial data: examples/geopandas.ipynb
-  - Work with Databases:
-      - .env file: examples/environment_variables.ipynb
-      
+      - 101: examples/basics/python_101.ipynb
+      - 202: examples/basics/python_202.ipynb
+  - Libraries:
+      - pandas: examples/libraries/pandas.ipynb
+      - geopandas: examples/libraries/geopandas.ipynb
+  - Databases:
+      - .env file: examples/databases/dotenv.ipynb
+      - psycopg2: examples/databases/psycopg2.ipynb
+      - sqlalchemy: examples/databases/sqlalchemy.ipynb
+
 plugins:
   - mkdocs-jupyter:
       ignore_h1_titles: True
