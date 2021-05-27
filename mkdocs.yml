@@ -17,6 +17,7 @@ nav:
   - Libraries:
       - pandas: examples/libraries/pandas.ipynb
       - geopandas: examples/libraries/geopandas.ipynb
+      - plotly: examples/libraries/plotly.ipynb
   - Databases:
       - .env file: examples/databases/dotenv.ipynb
       - psycopg2: examples/databases/psycopg2.ipynb
